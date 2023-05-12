@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "565732616998",
+    "firebase_url": "https://crash-detection-a6f5a-default-rtdb.firebaseio.com",
+    "project_id": "crash-detection-a6f5a",
+    "storage_bucket": "crash-detection-a6f5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565732616998:android:4f4b136733a68700d12fe7",
+        "android_client_info": {
+          "package_name": "com.example.crash_sens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565732616998-4okdqio4gcfjgf0daqkmgef0om5u4gvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRu32S10xXbnDogBSsUqLdvMUO5MNRq2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565732616998-4okdqio4gcfjgf0daqkmgef0om5u4gvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
