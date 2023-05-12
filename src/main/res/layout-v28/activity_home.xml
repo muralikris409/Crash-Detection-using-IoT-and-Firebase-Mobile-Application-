@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="10"
+    android:rotationX="0"
+    android:rotationY="0"
+    android:background="@drawable/car"
+    app:layoutDescription="@xml/activity_home_scene"
+    tools:context=".Home"
+    tools:ignore="ExtraText"
+    android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+android:layout_marginTop="-50dp"
+            android:layout_marginHorizontal="18dp"
+            android:background="@color/purple_200"
+            android:clickable="true"
+android:alpha="0.6"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="10dp"
+
+
+            tools:ignore="MissingConstraints"
+            android:focusable="true">
+<ImageView
+    android:id="@+id/profile"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+android:layout_gravity="right"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="15dp"
+    android:src="@drawable/baseline_person_24"
+    tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/test1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="18dp"
+                android:letterSpacing="0.2"
+                android:text="@string/loading"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+
+                tools:ignore="TextSizeCheck,TextContrastCheck" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="90dp"
+                android:letterSpacing="0.1"
+                android:text="Your credential"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColorHighlight="@color/black"
+                android:textAllCaps="true"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="330dp"
+                android:layout_height="30dp"
+                  android:overScrollMode="never"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="130dp"
+                android:letterSpacing="0.1"
+                android:text="Mail:"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/BG"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="170dp"
+                android:letterSpacing="0.1"
+                android:text="Blood Group:"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/MD"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="210dp"
+                android:letterSpacing="0.1"
+                android:text="Medical Description"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/Contact"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="250dp"
+                android:letterSpacing="0.1"
+                android:text="Contact Number:"
+                android:textColor="#000"
+                android:textFontWeight="900"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+
+                android:layout_marginTop="340dp"
+                android:text="@string/connected"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+
+                tools:ignore="TextSizeCheck" />
+        </androidx.cardview.widget.CardView>
+ <com.google.android.material.card.MaterialCardView
+     android:id="@+id/maptogdiv"
+     android:layout_width="match_parent"
+     app:cardBackgroundColor="@color/black"
+     android:alpha="0.8"
+     android:layout_height="70dp"
+     android:layout_marginVertical="80dp"
+     android:layout_marginHorizontal="18dp"
+  app:cardElevation="5dp"
+
+     >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="80dp"
+         android:layout_marginHorizontal="25dp"
+         android:layout_marginVertical="18dp"
+         android:letterSpacing="0.1"
+         android:text="Live Location"
+         android:textColor="@color/white"
+         android:textSize="20dp"
+         tools:ignore="TextSizeCheck" />
+
+     <androidx.appcompat.widget.AppCompatButton
+         android:id="@+id/map_tog"
+         android:layout_width="60dp"
+         android:layout_marginLeft="18dp"
+         android:textColor="@color/white"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:layout_marginVertical="10dp"
+         android:background="@drawable/baseline_navigate_next_24"
+         android:minHeight="48dp"
+         android:textAlignment="center"
+         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+ </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="-60dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/black"
+        android:alpha="0.8"
+        android:layout_marginHorizontal="18dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="18dp"
+            android:letterSpacing="0.1"
+            android:text="Edit credentials"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cre_nxt"
+            android:layout_width="60dp"
+            android:layout_marginLeft="18dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/baseline_navigate_next_24"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

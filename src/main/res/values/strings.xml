@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Crash_sens</string>
+    <string name="loading">Loading...</string>
+    <string name="connected">Connected</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="msg_token_fmt"></string>
+    <string name="welcome_back">WELCOME BACK!!</string>
+</resources>
